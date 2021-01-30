@@ -5,7 +5,7 @@ function isSaddlePoint(array)
    let saddlePoints = [];
    // Recorremos las filas
    for(let i = 0; i < array.length; i++) {
-      minimoFila = 101;
+      minimoFila = Infinity;
       colMinimo = -1;
       // Buscamos el minimo en la fila
       for (let j = 0; j < array[i].length; j++)
