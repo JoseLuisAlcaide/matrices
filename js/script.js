@@ -43,7 +43,7 @@ function isSaddlePoint(array)
 */
 const Array2D = (filas, columnas,min,max) => Array.from(
    {length: filas}, 
-   () => Array.from({length: filas}, () => Math.floor(min+(max-min)*Math.random()))
+   () => Array.from({length: columnas}, () => Math.floor(min+(max-min)*Math.random()))
 )
 
 let filas=4
